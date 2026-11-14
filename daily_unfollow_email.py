@@ -24,9 +24,9 @@ import sys
 from email.message import EmailMessage
 from html import escape
 from pathlib import Path
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 
-load_dotenv()
+#load_dotenv()
 
 HERE = Path(__file__).resolve().parent
 STATE_FILE = HERE / "state.json"
