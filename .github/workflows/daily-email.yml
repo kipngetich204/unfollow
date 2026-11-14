@@ -2,7 +2,7 @@ name: Daily unfollow email
 
 on:
   schedule:
-    - cron: "0 8 * * *"   # 05:00 UTC = 08:00 in Kenya (EAT)
+    - cron: "0 11 * * *"   # 05:00 UTC = 08:00 in Kenya (EAT)
   workflow_dispatch:
     inputs:
       resend:
